@@ -19,7 +19,9 @@ No After Effects, no AI video generation, no browser: a 320×180 framebuffer, a 
 </div>
 
 > Not one frame in these clips comes from an AI video model. Every block, letter and coin is computed by code: the title lands one character per beat, each coin fills one cell of the loading bar, and even the coin "ding" is a synthesised square wave.
+>
 > The only input was one sentence: *"给我的独立游戏《方块大作战》做一支 16:9、8 秒的发布开场：标题用方块一块块落下拼出来，番茄一蹦一蹦地过来吃金币填满进度条，重拍上闪一下，最后停在「开始游戏」。"*
+>
 > Render time on an Apple M4: **1.17 s** for 8 s of 1080p. Credits spent on the video: **0**.
 
 ---

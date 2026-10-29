@@ -120,7 +120,7 @@ node scripts/render.mjs examples/my-scene.mjs --stills 0.25,0.75,1.5,2.5,3.5,4.5
 ```bash
 node scripts/render.mjs examples/my-scene.mjs --out showcases/my-scene.mp4          # 8 s renders in about 1 s
 node scripts/render.mjs examples/my-scene.mjs --out showcases/gif/my-scene.gif --scale 2   # silent GIF for a README
-node scripts/render.mjs examples/my-scene.mjs --out showcases/my-scene.mp4 --watermark ../brand/logo.png   # optional
+node scripts/render.mjs examples/my-scene.mjs --out showcases/my-scene.mp4 --watermark path/to/logo.png   # optional
 ```
 
 - Frames go straight from the framebuffer to ffmpeg and are scaled ×6 with nearest-neighbour, so edges stay hard. Keep the scale even: H.264 stores colour at half resolution, and an even block size keeps colour edges on the block edges.

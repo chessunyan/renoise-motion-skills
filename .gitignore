@@ -6,3 +6,6 @@ qa/
 articles/
 
 .DS_Store
+
+# showcase videos are published as GitHub Release assets, not committed
+release/

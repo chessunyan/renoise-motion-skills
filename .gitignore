@@ -1,0 +1,8 @@
+# probe stills and figure renders are regenerated on demand
+qa/
+**/out/
+
+# article drafts stay local until they are published; remove this line to version them
+articles/
+
+.DS_Store
